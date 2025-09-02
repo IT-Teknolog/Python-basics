@@ -32,7 +32,7 @@ def test_fahrenheit_to_celsius():
     assert basal_python_repetition.fahrenheit_to_celsius(108) == 42.22222222222222
 
 def test_fahrenheit_to_celsius_floating():
-    assert basal_python_repetition.fahrenheit_to_celsius(13.37) == -10.35
+    assert basal_python_repetition.fahrenheit_to_celsius(13.37) == -10.350000000000001
 
 # Lav funktionen så at testen fuldføres brug: T(°F) = T(°C) × 9/5 + 32
 def test_celsius_to_fahrenheit():
