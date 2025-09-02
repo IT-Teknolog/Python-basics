@@ -7,6 +7,8 @@ import basal_python_repetition
 # Efterfølgende kan man se på github hvordan testen gik.
 # når 100 points er givet på github er alle tests fuldført.
 
+# OBS DENNE FIL MED TESTFUNKTIONERNE MÅ DER IKKE ÆNDRES I!
+
 # lav funktionen return_hello, så at testen fuldføres
 def test_return_hello():
     assert basal_python_repetition.return_hello() == "Hello, World!"
